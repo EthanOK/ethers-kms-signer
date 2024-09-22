@@ -9,7 +9,8 @@ The @aws-sdk/client-kms integration with ethers@v6 signer
 ## Install
 
 ```sh
-npm install @cuonghx.gu-tech/ethers-aws-kms-signer
+# npm install @cuonghx.gu-tech/ethers-aws-kms-signer
+npm install ethers-aws-kms-signer-v6
 ```
 
 ## Usage
@@ -23,4 +24,8 @@ npm install @cuonghx.gu-tech/ethers-aws-kms-signer
       secretAccessKey: process.env.AWS_SECRET_ACCESS_KEY!,
     },
   });
+  
+  # add sign()
+  //  digest type is bytes32
+  const signedMessage = await signer.sign(digest);
 ```
