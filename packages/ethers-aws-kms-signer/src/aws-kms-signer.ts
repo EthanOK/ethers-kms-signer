@@ -124,6 +124,11 @@ export class AwsKmsSigner<
     return signature.serialized;
   }
 
+  async sign(message: string | Uint8Array): Promise<string> {
+    const signature = await this._sign(message);
+    return signature.serialized;
+  }
+
   async signTypedData(
     domain: TypedDataDomain,
     types: Record<string, TypedDataField[]>,
