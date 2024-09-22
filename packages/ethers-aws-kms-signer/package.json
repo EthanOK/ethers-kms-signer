@@ -1,7 +1,7 @@
 {
   "name": "ethers-aws-kms-signer-v6",
   "version": "0.9.1",
-  "description": "The @aws-sdk/client-kms integration with ethers@v6 signer",
+  "description": "The @aws-sdk/client-kms integration with ethers@v6 signer. Base https://github.com/0xcuonghx/ethers-kms-signer, add signer.sign()",
   "main": "dist/src/index.js",
   "types": "dist/src/index.d.ts",
   "files": [
@@ -15,18 +15,15 @@
   },
   "repository": {
     "type": "git",
-    "url": "git+https://github.com/0xcuonghx/ethers-kms-signer.git"
+    "url": "git+https://github.com/EthanOK/ethers-kms-signer.git"
   },
   "keywords": [
     "aws-kms",
     "ethers@v6"
   ],
-  "author": "cuonghx-gutech <cuonghx@gu-tech.com>",
+  "author": "EthanOK",
   "license": "MIT",
-  "bugs": {
-    "url": "https://github.com/0xcuonghx/ethers-kms-signer/issues"
-  },
-  "homepage": "https://github.com/0xcuonghx/ethers-kms-signer",
+  "homepage": "https://github.com/EthanOK/ethers-kms-signer",
   "devDependencies": {
     "@types/chai": "^4.3.4",
     "@types/mocha": "^10.0.1",

@@ -124,8 +124,8 @@ export class AwsKmsSigner<
     return signature.serialized;
   }
 
-  async sign(message: string | Uint8Array): Promise<string> {
-    const signature = await this._sign(message);
+  async sign(digest: BytesLike): Promise<string> {
+    const signature = await this._sign(digest);
     return signature.serialized;
   }
 
