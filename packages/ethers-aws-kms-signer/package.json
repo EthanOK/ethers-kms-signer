@@ -21,7 +21,7 @@
     "aws-kms",
     "ethers@v6"
   ],
-  "author": "EthanOK",
+  "author": "0xEthan",
   "license": "MIT",
   "homepage": "https://github.com/EthanOK/ethers-kms-signer",
   "devDependencies": {
@@ -55,7 +55,7 @@
     "@peculiar/asn1-ecc": "^2.3.8",
     "@peculiar/asn1-schema": "^2.3.8",
     "@peculiar/asn1-x509": "^2.3.8",
-    "ethers": "^6.11.1"
+    "ethers": "^6.16.0"
   },
   "publishConfig": {
     "access": "public"

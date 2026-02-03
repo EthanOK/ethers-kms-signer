@@ -57,7 +57,7 @@
     "@peculiar/asn1-ecc": "^2.3.8",
     "@peculiar/asn1-schema": "^2.3.8",
     "@peculiar/asn1-x509": "^2.3.8",
-    "ethers": "^6.11.1",
+    "ethers": "^6.16.0",
     "google-gax": "^4.3.8"
   },
   "publishConfig": {
